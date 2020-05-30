@@ -20,9 +20,9 @@
         INT16S AC1;
         INT16S AC2;
         INT16S AC3;
-        INT16S AC4;
-        INT16S AC5;
-        INT16S AC6;
+        INT16U AC4;
+        INT16U AC5;
+        INT16U AC6;
         INT16S B1;
         INT16S B2;
         INT16S MB;
@@ -91,8 +91,8 @@ CHAR8S BMP180_GET_TEMP_PRESS(INT32S *temperature_data,FLOAT *pressure_data,CHAR8
         CHAR8S fail_flag=0;
 		
         INT32S X1,X2,X3,B5,REAL_TEMPUTRE;
-        INT32S B3,B6,B7;
-        INT32U B4;
+        INT32S B3,B6;
+        INT32U B4,B7;
 
         INT32S Temp_value;
         INT32S Press_value;

@@ -16,7 +16,7 @@
 
 #define CAL_COEFF_NUMBER         		22
 #define sensor_bmp180_debug      		0	/* open printf result value */
-#define OVERSAMPLING					0	/* set the mode see spec page.10 , range 0~3 */
+#define OVERSAMPLING					3	/* set the mode see spec page.10 , range 0~3 */
 //********************************************* SYSTEM ************************************************
 //--------------------------------------------------------------------------------------------------
 /* Get the Calibration coefficients */
