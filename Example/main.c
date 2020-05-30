@@ -21,13 +21,9 @@ External RAM size       : 0
 Data Stack size         : 512
 *******************************************************/
 
-
 #include <mega32a.h>
-
 #include <delay.h>
 #include <math.h>
-
-
 #include <SENSOR_BMP180.h>
 
 // I2C Bus functions
@@ -303,10 +299,9 @@ lcd_init(16);
 // Global enable interrupts
 #asm("sei")
 
-while (1)
+	while (1)
       {
-      // Place your code here          
- 	EXAMPLE_BMP180();       
-                    
-      }
+		// Place your code here          
+		EXAMPLE_BMP180();       
+	}
 }
